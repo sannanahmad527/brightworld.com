@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/navfooter.css">
+<!-- bootstrap code for footer     --> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+  
+   <script src="https://kit.fontawesome.com/a78e74df0b.js" crossorigin="anonymous"></script>   
+    <!-- <link rel="stylesheet" href="/oursolutions.css"> -->
+    <script src="https://kit.fontawesome.com/a6d72ac1ef.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- <link rel="stylesheet" href="about.css">      -->
+<link rel="stylesheet" href="/product/product.css">
+<link rel="stylesheet" href="/product/blog.css">
+</head>
+  <body>
+
+    <div class="main-navbar shadow-sm">
+    <div class="top-navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block">
+                    <a class="navbar-brand" href="#"><img src="/images/brightworld.png" alt="BRIGHT WORLD" width="130px" height="60px"></a>
+                </div>
+                <div class="col-md-5 my-auto">
+                    <form role="search">
+                        <div class="input-group">
+                            <input type="search" placeholder="Search your product" class="form-control" />
+                            <button class="btn bg-white" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5 my-auto">
+                    <ul class="nav justify-content-end">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-shopping-cart"></i> Cart (0)
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-heart"></i> Wishlist (0)
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-user"></i> Username 
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-list"></i> My Orders</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-heart"></i> My Wishlist</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i> My Cart</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="#">
+            <span style="color: orange;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">BRIGHT</span>
+            <br> <span>WORLD</span> 
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/pro.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/product/product.html">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Catagories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/product/product.html">INDOOR LIGHTS</a></li>
+                  <li><a class="dropdown-item" href="#">OUTDOOR LIGHTS</a></li>
+                  <li><a class="dropdown-item" href="#">BATH & VANITY</a></li>
+                  <li><a class="dropdown-item" href="#">WALL LIGHTS</a></li>
+                  <li><a class="dropdown-item" href="#">KITCHEN LIGHTS</a></li>
+                  <li><a class="dropdown-item" href="#">SOLAR LIGHTS</a></li>
+                  <li><a class="dropdown-item" href="#">TABLE LAMP</a></li>
+                 
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">OTHER</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">ContactUs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about us/about us.html"> AboutUs</a>
+              </li>
+            </ul>
+            
+           
+        </div>
+      </div>
+      </nav>
+
+
+    <div id="templatemo_main">
+    	<div id="product_slider">
+            <div class="cleaner"></div>
+        </div>
+        
+        <div id="sidebar">
+        	<h3>Categories</h3>
+            <ul class="sidebar_menu">
+			    <li><a href="#">INDOOR LIGHTS</a></li>
+                <li><a href="#">OUTDOOR LIGHTS</a></li>				
+                <li><a href="#">SMART LIGHTS</a></li>
+                <li><a href="#">LUG LIGHTS</a></li>				
+            	  <li><a href="#">SOLAR LIGHTS</a></li>
+
+			</ul>
+            <h3>Newsletter</h3>
+            <p>Praesent aliquam mi id tellus pretium pulvinar in vel ligula.</p>
+            <div id="newsletter">
+                <form action="#" method="get">
+                  <input type="text" value="Subscribe" name="email_newsletter" id="email_newsletter" title="email_newsletter" onfocus="clearText(this)" onblur="clearText(this)" class="txt_field" />
+                  <input type="submit" name="subscribe" value="Subscribe" alt="Subscribe" id="subscribebtn" title="Subscribe" class="subscribebtn"  />
+                </form>
+                <div class="cleaner"></div>
+            </div>
+        </div> <!-- END of sidebar -->
+        
+<div class = "products">
+  <div class = "container">
+      <div class = "product-items">
+          <!-- single product -->
+          <div class = "product">
+              <div class = "product-content">
+                  <div class = "product-img">
+                      <img src = "images/product 1.png" alt = "product image">
+                  </div>
+                  <div class = "product-btns">
+                      <button type = "button" class = "btn-cart"> add to cart
+                          <span><i class = "fas fa-plus"></i></span>
+                      </button>
+                      <button type = "button" class = "btn-buy"> buy now
+                          <span><i class = "fas fa-shopping-cart"></i></span>
+                      </button>
+                  </div>
+              </div>
+
+              <div class = "product-info">
+                  <div class = "product-info-top">
+                      <h2 class = "sm-title">lifestyle</h2>
+                      <div class = "rating">
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "far fa-star"></i></span>
+                      </div>
+                  </div>
+                  <a href = "#" class = "product-name">BACK LIGHT PANEL</a>
+                  <p class = "product-price">$ 150.00</p>
+                  <p class = "product-price">$ 133.00</p>
+              </div>
+
+              <div class = "off-info">
+                  <h2 class = "sm-title">25% off</h2>
+              </div>
+          </div>
+          <!-- end of single product -->
+          <!-- single product -->
+          <div class = "product">
+              <div class = "product-content">
+                  <div class = "product-img">
+                      <img src = "images/product 2.png" alt = "product image">
+                  </div>
+                  <div class = "product-btns">
+                      <button type = "button" class = "btn-cart"> add to cart
+                          <span><i class = "fas fa-plus"></i></span>
+                      </button>
+                      <button type = "button" class = "btn-buy"> buy now
+                          <span><i class = "fas fa-shopping-cart"></i></span>
+                      </button>
+                  </div>
+              </div>
+
+              <div class = "product-info">
+                  <div class = "product-info-top">
+                      <h2 class = "sm-title">lifestyle</h2>
+                      <div class = "rating">
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "far fa-star"></i></span>
+                      </div>
+                  </div>
+                  <a href = "#" class = "product-name">BATTEN TUBE LIGHT (TRI-PROOF)</a>
+                  <p class = "product-price">$ 150.00</p>
+                  <p class = "product-price">$ 133.00</p>
+              </div>
+          </div>
+          <!-- end of single product -->
+          <!-- single product -->
+          <div class = "product">
+              <div class = "product-content">
+                  <div class = "product-img">
+                      <img src = "images/product 3.png" alt = "product image">
+                  </div>
+                  <div class = "product-btns">
+                      <button type = "button" class = "btn-cart"> add to cart
+                          <span><i class = "fas fa-plus"></i></span>
+                      </button>
+                      <button type = "button" class = "btn-buy"> buy now
+                          <span><i class = "fas fa-shopping-cart"></i></span>
+                      </button>
+                  </div>
+              </div>
+
+              <div class = "product-info">
+                  <div class = "product-info-top">
+                      <h2 class = "sm-title">lifestyle</h2>
+                      <div class = "rating">
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "far fa-star"></i></span>
+                      </div>
+                  </div>
+                  <a href = "#" class = "product-name">CEILING PANEL LIGHT</a>
+                  <p class = "product-price">$ 150.00</p>
+                  <p class = "product-price">$ 133.00</p>
+              </div>
+          </div>
+          <!-- end of single product -->
+          <!-- single product -->
+          <div class = "product">
+              <div class = "product-content">
+                  <div class = "product-img">
+                      <img src = "images/product 4.png" alt = "product image">
+                  </div>
+                  <div class = "product-btns">
+                      <button type = "button" class = "btn-cart"> add to cart
+                          <span><i class = "fas fa-plus"></i></span>
+                      </button>
+                      <button type = "button" class = "btn-buy"> buy now
+                          <span><i class = "fas fa-shopping-cart"></i></span>
+                      </button>
+                  </div>
+              </div>
+
+              <div class = "product-info">
+                  <div class = "product-info-top">
+                      <h2 class = "sm-title">lifestyle</h2>
+                      <div class = "rating">
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "fas fa-star"></i></span>
+                          <span><i class = "far fa-star"></i></span>
+                      </div>
+                  </div>
+                  <a href = "#" class = "product-name">CEILING PANEL LIGHT</a>
+                  <p class = "product-price">$ 150.00</p>
+                  <p class = "product-price">$ 133.00</p>
+              </div>
+
+              <div class = "off-info">
+                  <h2 class = "sm-title">25% off</h2>
+              </div>
+          </div>
+          <!-- end of single product -->
+           <!-- single product -->
+           <div class = "product">
+            <div class = "product-content">
+                <div class = "product-img">
+                    <img src = "images/product 4.png" alt = "product image">
+                </div>
+                <div class = "product-btns">
+                    <button type = "button" class = "btn-cart"> add to cart
+                        <span><i class = "fas fa-plus"></i></span>
+                    </button>
+                    <button type = "button" class = "btn-buy"> buy now
+                        <span><i class = "fas fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class = "product-info">
+                <div class = "product-info-top">
+                    <h2 class = "sm-title">lifestyle</h2>
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                </div>
+                <a href = "#" class = "product-name">COB DOWN LIGHT</a>
+                <p class = "product-price">$ 150.00</p>
+                <p class = "product-price">$ 133.00</p>
+            </div>
+
+            <div class = "off-info">
+                <h2 class = "sm-title">25% off</h2>
+            </div>
+        </div>
+        <!-- end of single product -->
+         <!-- single product -->
+         <div class = "product">
+          <div class = "product-content">
+              <div class = "product-img">
+                  <img src = "images/product 4.png" alt = "product image">
+              </div>
+              <div class = "product-btns">
+                  <button type = "button" class = "btn-cart"> add to cart
+                      <span><i class = "fas fa-plus"></i></span>
+                  </button>
+                  <button type = "button" class = "btn-buy"> buy now
+                      <span><i class = "fas fa-shopping-cart"></i></span>
+                  </button>
+              </div>
+          </div>
+
+          <div class = "product-info">
+              <div class = "product-info-top">
+                  <h2 class = "sm-title">lifestyle</h2>
+                  <div class = "rating">
+                      <span><i class = "fas fa-star"></i></span>
+                      <span><i class = "fas fa-star"></i></span>
+                      <span><i class = "fas fa-star"></i></span>
+                      <span><i class = "fas fa-star"></i></span>
+                      <span><i class = "far fa-star"></i></span>
+                  </div>
+              </div>
+              <a href = "#" class = "product-name">COB DOWN LIGHT (MATERIAL: PLASTIC FIXTURE)</a>
+              <p class = "product-price">$ 150.00</p>
+              <p class = "product-price">$ 133.00</p>
+          </div>
+
+          <div class = "off-info">
+              <h2 class = "sm-title">25% off</h2>
+          </div>
+      </div>
+      <!-- end of single product -->
+       <!-- single product -->
+       <div class = "product">
+        <div class = "product-content">
+            <div class = "product-img">
+                <img src = "images/product 4.png" alt = "product image">
+            </div>
+            <div class = "product-btns">
+                <button type = "button" class = "btn-cart"> add to cart
+                    <span><i class = "fas fa-plus"></i></span>
+                </button>
+                <button type = "button" class = "btn-buy"> buy now
+                    <span><i class = "fas fa-shopping-cart"></i></span>
+                </button>
+            </div>
+        </div>
+
+        <div class = "product-info">
+            <div class = "product-info-top">
+                <h2 class = "sm-title">lifestyle</h2>
+                <div class = "rating">
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "far fa-star"></i></span>
+                </div>
+            </div>
+            <a href = "#" class = "product-name">COB EYEBALL</a>
+            <p class = "product-price">$ 150.00</p>
+            <p class = "product-price">$ 133.00</p>
+        </div>
+
+        <div class = "off-info">
+            <h2 class = "sm-title">25% off</h2>
+        </div>
+    </div>
+    <!-- end of single product -->
+     <!-- single product -->
+     <div class = "product">
+      <div class = "product-content">
+          <div class = "product-img">
+              <img src = "images/product 4.png" alt = "product image">
+          </div>
+          <div class = "product-btns">
+              <button type = "button" class = "btn-cart"> add to cart
+                  <span><i class = "fas fa-plus"></i></span>
+              </button>
+              <button type = "button" class = "btn-buy"> buy now
+                  <span><i class = "fas fa-shopping-cart"></i></span>
+              </button>
+          </div>
+      </div>
+
+      <div class = "product-info">
+          <div class = "product-info-top">
+              <h2 class = "sm-title">lifestyle</h2>
+              <div class = "rating">
+                  <span><i class = "fas fa-star"></i></span>
+                  <span><i class = "fas fa-star"></i></span>
+                  <span><i class = "fas fa-star"></i></span>
+                  <span><i class = "fas fa-star"></i></span>
+                  <span><i class = "far fa-star"></i></span>
+              </div>
+          </div>
+          <a href = "#" class = "product-name">LED BULB LIGHT</a>
+          <p class = "product-price">$ 150.00</p>
+          <p class = "product-price">$ 133.00</p>
+      </div>
+
+      <div class = "off-info">
+          <h2 class = "sm-title">25% off</h2>
+      </div>
+  </div>
+  <!-- end of single product -->
+   <!-- single product -->
+   <div class = "product">
+    <div class = "product-content">
+        <div class = "product-img">
+            <img src = "images/product 4.png" alt = "product image">
+        </div>
+        <div class = "product-btns">
+            <button type = "button" class = "btn-cart"> add to cart
+                <span><i class = "fas fa-plus"></i></span>
+            </button>
+            <button type = "button" class = "btn-buy"> buy now
+                <span><i class = "fas fa-shopping-cart"></i></span>
+            </button>
+        </div>
+    </div>
+
+    <div class = "product-info">
+        <div class = "product-info-top">
+            <h2 class = "sm-title">lifestyle</h2>
+            <div class = "rating">
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "fas fa-star"></i></span>
+                <span><i class = "far fa-star"></i></span>
+            </div>
+        </div>
+        <a href = "#" class = "product-name">LED BULB LIGHT</a>
+        <p class = "product-price">$ 150.00</p>
+        <p class = "product-price">$ 133.00</p>
+    </div>
+
+    <div class = "off-info">
+        <h2 class = "sm-title">25% off</h2>
+    </div>
+</div>
+<!-- end of single product -->
+ <!-- single product -->
+ <div class = "product">
+  <div class = "product-content">
+      <div class = "product-img">
+          <img src = "images/product 4.png" alt = "product image">
+      </div>
+      <div class = "product-btns">
+          <button type = "button" class = "btn-cart"> add to cart
+              <span><i class = "fas fa-plus"></i></span>
+          </button>
+          <button type = "button" class = "btn-buy"> buy now
+              <span><i class = "fas fa-shopping-cart"></i></span>
+          </button>
+      </div>
+  </div>
+
+  <div class = "product-info">
+      <div class = "product-info-top">
+          <h2 class = "sm-title">lifestyle</h2>
+          <div class = "rating">
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "far fa-star"></i></span>
+          </div>
+      </div>
+      <a href = "#" class = "product-name">LED BULB LIGHT</a>
+      <p class = "product-price">$ 150.00</p>
+      <p class = "product-price">$ 133.00</p>
+  </div>
+
+  <div class = "off-info">
+      <h2 class = "sm-title">25% off</h2>
+  </div>
+</div>
+<!-- end of single product -->
+ <!-- single product -->
+ <div class = "product">
+  <div class = "product-content">
+      <div class = "product-img">
+          <img src = "images/product 4.png" alt = "product image">
+      </div>
+      <div class = "product-btns">
+          <button type = "button" class = "btn-cart"> add to cart
+              <span><i class = "fas fa-plus"></i></span>
+          </button>
+          <button type = "button" class = "btn-buy"> buy now
+              <span><i class = "fas fa-shopping-cart"></i></span>
+          </button>
+      </div>
+  </div>
+
+  <div class = "product-info">
+      <div class = "product-info-top">
+          <h2 class = "sm-title">lifestyle</h2>
+          <div class = "rating">
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "far fa-star"></i></span>
+          </div>
+      </div>
+      <a href = "#" class = "product-name">LED BULB LIGHT</a>
+      <p class = "product-price">$ 150.00</p>
+      <p class = "product-price">$ 133.00</p>
+  </div>
+
+  <div class = "off-info">
+      <h2 class = "sm-title">25% off</h2>
+  </div>
+</div>
+<!-- end of single product -->
+ <!-- single product -->
+ <div class = "product">
+  <div class = "product-content">
+      <div class = "product-img">
+          <img src = "images/product 4.png" alt = "product image">
+      </div>
+      <div class = "product-btns">
+          <button type = "button" class = "btn-cart"> add to cart
+              <span><i class = "fas fa-plus"></i></span>
+          </button>
+          <button type = "button" class = "btn-buy"> buy now
+              <span><i class = "fas fa-shopping-cart"></i></span>
+          </button>
+      </div>
+  </div>
+
+  <div class = "product-info">
+      <div class = "product-info-top">
+          <h2 class = "sm-title">lifestyle</h2>
+          <div class = "rating">
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "fas fa-star"></i></span>
+              <span><i class = "far fa-star"></i></span>
+          </div>
+      </div>
+      <a href = "#" class = "product-name">OPEN PANEL LIGHT</a>
+      <p class = "product-price">$ 150.00</p>
+      <p class = "product-price">$ 133.00</p>
+  </div>
+
+  <div class = "off-info">
+      <h2 class = "sm-title">25% off</h2>
+  </div>
+  
+</div>
+<!-- end of single product -->
+<nav aria-label="...">
+  <ul class="pagination pagination-lg">
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+   <footer class="site-footer">
+        <div class="footer-container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Our team of lighting experts has extensive knowledge and experience in the field, and they are always ready to assist you in finding the best LED lights to suit your specific needs. We are committed to providing our customers with top-notch customer service and the highest level of satisfaction.</p>
+            </div>
+      
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="">Indoor lights</a></li>
+                <li><a href="">Outdoor lights</a></li>
+                <li><a href="">kitchen lights</a></li>
+                <li><a href="">Decoration lights</a></li>
+                <li><a href="">Wall lights</a></li>
+                <li><a href="">Solar lights</a></li>
+              </ul>
+            </div>
+            <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Contribute</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="footer-container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright  2023 All Rights Reserved by 
+           <a href="#">BRIGHT WORLD</a>.
+              </p>
+            </div>
+      
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer> -->
+    </body>
+</html>
+    

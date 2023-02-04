@@ -1,0 +1,110 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+   
+  }
+  
+  html{
+  
+    scroll-behavior: smooth;
+  }
+body{
+	background-color:#f8f9fa;
+}
+.templatemo_main{
+    width: auto;
+}
+#sidebar {
+    float: left;
+    width: 300px;
+    padding: 0px 0px 1px 10px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 83px;
+}
+#content {
+    float: right;
+    width: 700px;
+    width: 700px;
+    padding: 20px 10px 20px;
+}
+.sidebar_menu {
+    list-style: none;
+    margin: 0 0 30px;
+    padding: 0;
+}
+.sidebar_menu li {
+    margin: 0;
+    padding: 2px 0 3px 15px;
+    background: url(../images/templatemo_list_01.png) no-repeat scroll 0 8px;
+    border-bottom: 1px dotted #ccc;
+}
+.sidebar_menu :hover {
+   background-color: green;
+   color: #fff;
+}
+.sidebar_menu li a {
+    font-size: 13px;
+    text-decoration: none;
+    font-weight:lighter;
+    color: black;
+}
+#sidebar h3 {
+    font-size: 16px;
+    padding: 19px 10px 20px 18px;
+    margin: 15px 0 18px 0;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    
+}
+p {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+#newsletter {
+    margin-bottom: 60px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+#newsletter .txt_field {
+    width: 188px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 11px;
+    color: #999;
+}
+#newsletter .subscribebtn {
+    /* float: right; */
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    background: #21bdd0;
+    color: #fff;
+    border: none;
+}
+#content {
+    float: right;
+    width: 700px;
+    width: 700px;
+    padding: 20px 10px 20px;
+}
+#content h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.pagination{
+align-items: center;
+justify-content: center;
+}
